@@ -1,3 +1,54 @@
 body {
     background-color: black;
 }
+
+.background {    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: white;
+    font-family: monospace;
+    font-size: 1em;
+}
+
+.linkedin-logo {   
+    background-color: white;
+    border-radius: 7px;
+    width: 21px;
+    margin-left: 11px;    
+}
+
+.skills {
+    width: auto;    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon {
+    font-size: 3em;
+}
+
+.javasScript {    
+    background-color: #212529;
+}   
+
+i:hover::before {
+    transform: scale(1.9);
+    box-shadow: 0 0 10px black;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .icon {
+        font-size: 2em;
+    }
+}
