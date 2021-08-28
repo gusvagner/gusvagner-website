@@ -1,0 +1,2 @@
+- Add "copyright" information;
+- Add more skills at the bottom of the page.

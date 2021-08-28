@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { MySkillsComponent } from './my-skills/my-skills.component';
 import { SkillComponent } from './skill/skill.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,    
     MySkillsComponent,
-    SkillComponent
+    SkillComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
