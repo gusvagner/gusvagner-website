@@ -53,6 +53,6 @@ i:hover::before {
 
 @media only screen and (max-width: 600px) {
     .icon {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
